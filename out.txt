@@ -1,0 +1,36 @@
+﻿python : 
+At line:1 char:1
++ python 5a_retrieval.py 2>&1 | Out-File out.txt -Encoding utf8
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights:  38%|###7      | 75/199 [00:00<00:00, 748.51it/s]
+Loading weights: 100%|##########| 199/199 [00:00<00:00, 1613.63it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please 
+set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+How do I set retries on a task? | best dense score: 0.791
+  rrf 0.0328 | dense 0.791 | bm25 13.2 | tutorial/taskflow.rst | Pythonic Dags with the TaskFlow API > Error Handli
+  rrf 0.0310 | dense 0.717 | bm25 10.2 | core-concepts/tasks.rst | Tasks > Retry Policies > Composition with existing
+  rrf 0.0161 | dense 0.722 | bm25 - | tutorial/taskflow.rst | Pythonic Dags with the TaskFlow API > Advanced Tas
+  rrf 0.0161 | dense - | bm25 10.9 | authoring-and-scheduling/assets.rst | Asset Definitions > Dependency between ``@asset``,
+  rrf 0.0159 | dense 0.72 | bm25 - | howto/dag-level-retry-via-callback.rst | Dag-level Retry via on_failure_callback > When thi
+  rrf 0.0159 | dense - | bm25 10.8 | howto/dag-level-retry-via-callback.rst | Dag-level Retry via on_failure_callback > Basic ex
+
+How do I change the number of shuffle partitions in Spark? | best dense score: 0.82
+  rrf 0.0328 | dense 0.82 | bm25 18.0 | sql-performance-tuning.md | Performance Tuning > Adaptive Query Execution > Co
+  rrf 0.0313 | dense 0.814 | bm25 15.1 | configuration.md | Spark Configuration > Push-based shuffle overview 
+  rrf 0.0161 | dense - | bm25 16.5 | streaming/additional-information.md | Structured Streaming Programming Guide > Miscellan
+  rrf 0.0159 | dense 0.812 | bm25 - | rdd-programming-guide.md | RDD Programming Guide > Resilient Distributed Data
+  rrf 0.0159 | dense - | bm25 16.4 | configuration.md | Spark Configuration > Push-based shuffle overview 
+  rrf 0.0156 | dense 0.8 | bm25 - | sql-performance-tuning.md | Performance Tuning > Adaptive Query Execution > Sp
+
+What is the Snowflake credit cost? | best dense score: 0.564
+  rrf 0.0325 | dense 0.564 | bm25 7.3 | authoring-and-scheduling/asset-scheduling.rst | Asset-Aware Scheduling > Fetching information from
+  rrf 0.0320 | dense 0.526 | bm25 7.1 | authoring-and-scheduling/asset-scheduling.rst | Asset-Aware Scheduling > Fetching information from
+  rrf 0.0164 | dense - | bm25 7.5 | sql-performance-tuning.md | Performance Tuning > Leveraging Statistics
+  rrf 0.0159 | dense 0.515 | bm25 - | authoring-and-scheduling/assets.rst | Asset Definitions > Asset partitions > Rollup mapp
+  rrf 0.0156 | dense 0.512 | bm25 - | authoring-and-scheduling/assets.rst | Asset Definitions > Asset partitions > Rollup mapp
+  rrf 0.0156 | dense - | bm25 6.5 | sql-performance-tuning.md | Performance Tuning > Adaptive Query Execution > Ad

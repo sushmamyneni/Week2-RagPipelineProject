@@ -1,0 +1,92 @@
+﻿
+How do I set retries on a task?
+  best dense score: 0.791 | relevant: True | tools: ['airflow'] | 1/1 expected found
+    dense 0.791 | tutorial/taskflow.rst | Pythonic Dags with the TaskFlow API > Error Handling an
+    dense 0.717 | core-concepts/tasks.rst | Tasks > Retry Policies > Composition with existing para
+    dense 0.722 | tutorial/taskflow.rst | Pythonic Dags with the TaskFlow API > Advanced TaskFlow
+    dense - | authoring-and-scheduling/assets.rst | Asset Definitions > Dependency between ``@asset``, ``@t
+    dense 0.720 | howto/dag-level-retry-via-callback.rst | Dag-level Retry via on_failure_callback > When this pat
+    dense - | howto/dag-level-retry-via-callback.rst | Dag-level Retry via on_failure_callback > Basic example
+
+What is the difference between a sensor's timeout and its retries?
+  best dense score: 0.784 | relevant: True | tools: ['airflow'] | 2/2 expected found
+    dense 0.750 | core-concepts/tasks.rst | Tasks > Timeouts
+    dense 0.768 | core-concepts/tasks.rst | Tasks > Timeouts
+    dense 0.784 | core-concepts/sensors.rst | Sensors
+    dense 0.729 | core-concepts/sensors.rst | Sensors > BaseSensorOperator parameters > Common parame
+    dense 0.730 | core-concepts/tasks.rst | Tasks > Timeouts
+    dense 0.714 | core-concepts/sensors.rst | Sensors > BaseSensorOperator parameters > Common parame
+
+Where should I look when a task fails for an obscure reason?
+  best dense score: 0.733 | relevant: True | tools: ['airflow'] | 2/2 expected found
+    dense 0.733 | administration-and-deployment/logging-monitoring/errors.rst | Error Tracking > Breadcrumbs
+    dense - | ui.rst | UI Overview > Task Instance Tabs > Logs
+    dense 0.720 | administration-and-deployment/logging-monitoring/errors.rst | Error Tracking > Tags
+    dense - | core-concepts/tasks.rst | Tasks > Retry Policies > How it works
+    dense 0.717 | faq.rst | FAQ > Scheduling / Dag file parsing > How do I trigger 
+    dense - | troubleshooting.rst | Troubleshooting > Obscure task failures > Process termi
+
+How do I change the number of shuffle partitions in Spark?
+  best dense score: 0.820 | relevant: True | tools: ['spark'] | 1/1 expected found
+    dense 0.820 | sql-performance-tuning.md | Performance Tuning > Adaptive Query Execution > Coalesc
+    dense 0.814 | configuration.md | Spark Configuration > Push-based shuffle overview > Cli
+    dense - | streaming/additional-information.md | Structured Streaming Programming Guide > Miscellaneous 
+    dense 0.812 | rdd-programming-guide.md | RDD Programming Guide > Resilient Distributed Datasets 
+    dense - | configuration.md | Spark Configuration > Push-based shuffle overview > Cli
+    dense 0.800 | sql-performance-tuning.md | Performance Tuning > Adaptive Query Execution > Splitti
+
+How do I set the executor memory in Spark?
+  best dense score: 0.831 | relevant: True | tools: ['spark'] | 1/1 expected found
+    dense 0.831 | configuration.md | Spark Configuration > Spark Properties > Available Prop
+    dense 0.824 | configuration.md | Spark Configuration > Spark Properties > Available Prop
+    dense 0.804 | configuration.md | Spark Configuration > Spark Properties > Available Prop
+    dense 0.816 | configuration.md | Spark Configuration > Spark Properties > Available Prop
+    dense - | monitoring.md | Monitoring and Instrumentation > Web Interfaces > REST 
+    dense 0.812 | configuration.md | Spark Configuration > Spark Properties > Available Prop
+
+How do I monitor a running Spark application?
+  best dense score: 0.834 | relevant: True | tools: ['spark'] | 1/2 expected found
+    dense 0.817 | running-on-kubernetes.md | Running Spark on Kubernetes > Submitting Applications t
+    dense 0.834 | monitoring.md | Monitoring and Instrumentation
+    dense - | submitting-applications.md | Submitting Applications > More Information
+    dense 0.807 | monitoring.md | Monitoring and Instrumentation > Advanced Instrumentati
+    dense - | running-on-yarn.md | Running Spark on YARN > Debugging your Application > Sp
+    dense 0.801 | monitoring.md | Monitoring and Instrumentation > Web Interfaces
+
+An Airflow task that runs spark-submit fails intermittently. Which retry and failure settings should I check?
+  best dense score: 0.791 | relevant: True | tools: ['airflow', 'spark'] | 2/2 expected found
+    dense 0.777 | howto/dag-level-retry-via-callback.rst | Dag-level Retry via on_failure_callback
+    dense 0.709 | configuration.md | Spark Configuration > Spark Properties > Available Prop
+    dense 0.791 | core-concepts/tasks.rst | Tasks > Special Exceptions
+    dense - | howto/dag-level-retry-via-callback.rst | Dag-level Retry via on_failure_callback > Basic example
+    dense 0.761 | running-on-kubernetes.md | Running Spark on Kubernetes > Submitting Applications t
+    dense - | configuration.md | Spark Configuration > Spark Properties > Available Prop
+
+What is the Snowflake credit cost?
+  best dense score: 0.564 | relevant: False | tools: ['airflow'] | n/a (unanswerable)
+    dense 0.564 | authoring-and-scheduling/asset-scheduling.rst | Asset-Aware Scheduling > Fetching information from a tr
+    dense 0.526 | authoring-and-scheduling/asset-scheduling.rst | Asset-Aware Scheduling > Fetching information from a tr
+    dense 0.515 | authoring-and-scheduling/assets.rst | Asset Definitions > Asset partitions > Rollup mappers
+    dense - | administration-and-deployment/production-deployment.rst | Production Deployment > Live-upgrading Airflow
+    dense 0.512 | authoring-and-scheduling/assets.rst | Asset Definitions > Asset partitions > Rollup mappers
+    dense - | best-practices.rst | Best Practices > Upgrades and downgrades > Add "integra
+
+How do I tune PostgreSQL autovacuum?
+  best dense score: 0.759 | relevant: True | tools: ['airflow'] | n/a (unanswerable)
+    dense 0.759 | howto/set-up-database.rst | Set up a Database Backend > Setting up a PostgreSQL Dat
+    dense 0.701 | howto/set-up-database.rst | Set up a Database Backend > Setting up a PostgreSQL Dat
+    dense - | howto/set-up-database.rst | Set up a Database Backend > Setting up a PostgreSQL Dat
+    dense 0.713 | howto/set-up-database.rst | Set up a Database Backend > Setting up a PostgreSQL Dat
+    dense - | core-concepts/multi-team.rst | Multi-Team > Team-based Executor Configuration > Team-s
+    dense 0.703 | howto/set-up-database.rst | Set up a Database Backend > Setting up a PostgreSQL Dat
+
+SUMMARY (lowest score first)
+  0.564 | relevant=False | n/a (unanswerable) | What is the Snowflake credit cost?
+  0.733 | relevant=True | 2/2 expected found | Where should I look when a task fails for an obscure reason?
+  0.759 | relevant=True | n/a (unanswerable) | How do I tune PostgreSQL autovacuum?
+  0.784 | relevant=True | 2/2 expected found | What is the difference between a sensor's timeout and its re
+  0.791 | relevant=True | 1/1 expected found | How do I set retries on a task?
+  0.791 | relevant=True | 2/2 expected found | An Airflow task that runs spark-submit fails intermittently.
+  0.820 | relevant=True | 1/1 expected found | How do I change the number of shuffle partitions in Spark?
+  0.831 | relevant=True | 1/1 expected found | How do I set the executor memory in Spark?
+  0.834 | relevant=True | 1/2 expected found | How do I monitor a running Spark application?

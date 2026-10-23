@@ -1,0 +1,11 @@
+# Virtual environment
+.venv/
+
+# Secrets
+.env
+
+# Generated files (chunks, manifest, etc.)
+data/
+
+# Python bytecode
+__pycache__/
